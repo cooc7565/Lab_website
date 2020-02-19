@@ -1,0 +1,19 @@
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+th:hover {background-color: #f5f5f5;}
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
